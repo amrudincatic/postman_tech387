@@ -1,0 +1,460 @@
+{
+	"info": {
+		"_postman_id": "b2cc4120-5240-4af6-b021-4ead2dd13c0a",
+		"name": "ac-tech387.free.beeceptor.com",
+		"description": "[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/a4bb177f29620d1d9916?action=collection%2Fimport)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24024126"
+	},
+	"item": [
+		{
+			"name": "home",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseURL}}",
+					"host": [
+						"{{baseURL}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://ac-tech387.free.beeceptor.com/https://ac-tech387.free.beeceptor.com",
+							"protocol": "https",
+							"host": [
+								"ac-tech387",
+								"free",
+								"beeceptor",
+								"com"
+							],
+							"path": [
+								"https:",
+								"",
+								"ac-tech387.free.beeceptor.com"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "this is cool"
+				}
+			]
+		},
+		{
+			"name": "user1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseURL}}/user1",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"user1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://ac-tech387.free.beeceptor.com/https://ac-tech387.free.beeceptor.com",
+							"protocol": "https",
+							"host": [
+								"ac-tech387",
+								"free",
+								"beeceptor",
+								"com"
+							],
+							"path": [
+								"https:",
+								"",
+								"ac-tech387.free.beeceptor.com"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "this is cool"
+				}
+			]
+		},
+		{
+			"name": "user2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response time is less than 100ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(100);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseURL}}/user2",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"user2"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://ac-tech387.free.beeceptor.com/https://ac-tech387.free.beeceptor.com",
+							"protocol": "https",
+							"host": [
+								"ac-tech387",
+								"free",
+								"beeceptor",
+								"com"
+							],
+							"path": [
+								"https:",
+								"",
+								"ac-tech387.free.beeceptor.com"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "this is cool"
+				}
+			]
+		},
+		{
+			"name": "user48",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {",
+							"    pm.response.to.have.status(404);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseURL}}/user48",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"user48"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{baseURL}}/https://ac-tech387.free.beeceptor.com",
+							"protocol": "{{baseURL}}/https",
+							"host": [
+								"ac-tech387",
+								"free",
+								"beeceptor",
+								"com"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "this is cool"
+				}
+			]
+		},
+		{
+			"name": "login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"token\");",
+							"});",
+							"",
+							"pm.test(\"Successful POST request\", function () {",
+							"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseURL}}/login?E-mail=career@tech387.com&Password=Pass123!",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"login"
+					],
+					"query": [
+						{
+							"key": "E-mail",
+							"value": "career@tech387.com"
+						},
+						{
+							"key": "Password",
+							"value": "Pass123!"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{baseURL}}/https://ac-tech387.free.beeceptor.com",
+							"protocol": "{{baseURL}}/https",
+							"host": [
+								"ac-tech387",
+								"free",
+								"beeceptor",
+								"com"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "this is cool"
+				}
+			]
+		},
+		{
+			"name": "wrong login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {",
+							"    pm.response.to.have.status(404);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{baseURL}}/login?E-mail=career@tech387.com&Password=Pass123!12221223",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"login"
+					],
+					"query": [
+						{
+							"key": "E-mail",
+							"value": "career@tech387.com"
+						},
+						{
+							"key": "Password",
+							"value": "Pass123!12221223"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{baseURL}}/https://ac-tech387.free.beeceptor.com",
+							"protocol": "{{baseURL}}/https",
+							"host": [
+								"ac-tech387",
+								"free",
+								"beeceptor",
+								"com"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "this is cool"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://d1585ea3-f263-4332-bece-e9d00db8c6d9.mock.pstmn.io",
+			"disabled": true
+		},
+		{
+			"key": "baseURL",
+			"value": "https://ac-tech387.free.beeceptor.com",
+			"type": "string"
+		}
+	]
+}
